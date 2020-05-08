@@ -14,6 +14,7 @@ class Dog
   end
   
   def self.print_all
+    ary = []
     @@all.map {|i| ary << i.name}
     puts "ary"
   end 
