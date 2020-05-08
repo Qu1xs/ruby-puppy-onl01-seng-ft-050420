@@ -16,7 +16,7 @@ class Dog
   def self.print_all
     ary = []
     @@all.map {|i| ary << i.name}
-    puts "ary"
+    puts "#{ary}"
   end 
   
   def save
