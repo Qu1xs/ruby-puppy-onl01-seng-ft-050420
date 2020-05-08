@@ -14,7 +14,7 @@ class Dog
   end
   
   def self.print_all
-    @all.each {|i| ary << i.name}
+    @@all.map {|i| ary << i.name}
     puts "ary"
   end 
   
